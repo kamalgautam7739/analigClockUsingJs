@@ -1,0 +1,47 @@
+#main_div{
+    margin: auto;
+    position:relative;
+    /* margin:auto; */
+    height:90vh;
+    width:90vh;
+  background-image:url(./Untitled-1.jpg);
+    background-size: 100%;
+    
+
+}
+#hour {
+    position: absolute;
+    border-radius: 10px;
+    width: 2vh;
+    height: 25vh;
+    background-color: black;
+    top:22.3%;
+    left: 48.8%;
+    transform-origin:bottom;
+   
+}
+#minutes {
+    position: absolute;
+    border-radius: 10px;
+    width: 1vh;
+    height: 30vh;
+    background-color: rgb(246, 250, 2);
+    top: 16.6%;
+    left: 49.4%;
+    transform-origin: bottom;
+  
+    
+    
+}
+#second {
+    position: absolute;
+    border-radius: 10px;
+    width: .4vh;
+    height: 34vh;
+    background-color: rgb(7, 253, 109);
+    top: 12.2%;
+    left: 49.7%;
+    transform-origin: bottom;
+
+  
+}
